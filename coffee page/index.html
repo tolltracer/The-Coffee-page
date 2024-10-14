@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☕ Coffee page</title>
+    <!--linking swiper from mdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<!--linking font awesomes for icons-->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕ Coffee</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Menu</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Testimonials</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best coffee</h2>
+                    <h3 class="subtitle">make your day great with our special coffee!</h3>
+                    <p class="description">Welcome toour coffee paradise, where every bean tells a story and every cup sparks a joy.</p>
+                    
+                    <div class="buttons">
+                      <a href="#" class="button order-now">Order Now</a>
+                      <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                    <div class="hero-image-wrapper">
+                        <img src="coffee-hero-section.png" alt="hero" class="hero-image">
+                    </div>
+                </div>            
+        </section>
+<!--about section-->
+        <section class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="about-image.jpg" alt="about" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p>Every day, we go to work hoping to do two things: share great coffee with our friends and help make the world a little better. It was true when the first The Coffee page opened in 1971, and it’s just as true today.
+                        Back then, the company was a single store in Seattle’s historic Pike Place Market. From just a narrow storefront, Starbucks offered some of the world’s finest fresh-roasted whole bean coffees. The name, inspired by Moby Dick, evoked the romance of the high seas and the seafaring tradition of the early coffee traders.</p>
+                    <div class="social-link-list">
+                       <a href="" class="social-link"><i class="fa-brands fa-F-Facebook"></i></a>
+                       <a href="" class="social-link"><i class="fa-brands fa-I-Instagram"></i></a>
+                       <a href="" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+<!--menu section-->
+         <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="hot-beverages.png" alt="Hot beverages" class="menu-image"/>
+                        <div class="menu-details">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Wide range of steaming hot coffee to make you fresh and light.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="cold-beverages.png" alt="Cold beverages" class="menu-image"/>
+                        <div class="menu-details">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="text">Creamy and cold coffe to make you cool.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="refreshment.png" alt="refreshment" class="menu-image"/>
+                        <div class="menu-details">
+                            <h3 class="name">Refreshment</h3>
+                        <p class="text">Fruit and icy refreshing drink to make you feel refresh.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="special-combo.png" alt="special-combos" class="menu-image"/>
+                        <div class="menu-details">
+                        <h3 class="name">Special Combos</h3>
+                        <p class="text">Get the best eating and drinking combos of your choice.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="desserts.png" alt="desserts" class="menu-image"/>
+                        <div class="menu-details">
+                        <h3 class="name">Desserts</h3>
+                        <p class="text">Satiate your plate and take you on a culinary treat.</p>
+                        <div class="menu-details">
+                    </li>
+                    <li class="menu-item">
+                        <img src="burger-frenchfries.png" alt="Burger and French Fries" class="menu-image"/>
+                        <div class="menu-details">
+                        <h3 class="name">Burger and Frinch Fries</h3>
+                        <p class="text">Quick bites to satisfy your small size hunger.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+         </section>
+<!--testimonials -->
+         <section class="testimonials-section">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Steven Salvatore</h3>
+                                <i class="feedback">"Loved th french roast. perfectly balanced and rich. Will order again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Claus Milkelson</h3>
+                                <i class="feedback">"Loved th french roast. perfectly balanced and rich. Will order again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="user-3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Elijah Milkelson</h3>
+                                <i class="feedback">"Loved th french roast. perfectly balanced and rich. Will order again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="user-4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Demon Salvatore</h3>
+                                <i class="feedback">"Loved th french roast. perfectly balanced and rich. Will order again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="user-5.jpg " alt="User" class="user-image">
+                                <h3 class="name">Katherine Pierce</h3>
+                                <i class="feedback">"Loved th french roast. perfectly balanced and rich. Will order again!"</i>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slider-button swiper-button-perv"></div>
+                        <div class="swiper-slider-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+         </section>
+    </main>
+    <!--linking swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--linking close menu script-->
+    <script src="script.js"></script>
+</body>
+</html>
